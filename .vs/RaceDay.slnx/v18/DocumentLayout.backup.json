@@ -1,0 +1,810 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Georg\\source\\repos\\RaceDay-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\events\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\enrolements\\my.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\models\\eventcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\models\\enrolment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\models\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\models\\viewmodels\\participantresultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\models\\viewmodels\\organiserresultsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\models\\viewmodels\\eventviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\models\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\controllers\\participantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\controllers\\organisercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\controllers\\enrolmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\organiser\\events.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\organiser\\createevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\organiser\\_eventform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\racedayweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\shared\\apiunavailable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\results\\my.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\participant\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\organiser\\results.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\organiser\\enrolments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\organiser\\editevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\views\\organiser\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\services\\racedayapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\services\\iracedayapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{275C00CE-5371-4E31-BAEE-72E1F2DD045E}|..\\RaceDayWeb\\RaceDayWeb.csproj|c:\\users\\georg\\source\\repos\\racedayweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FA837B-4C50-4CBE-BE58-B1BDEE02B0A1}|RaceDay.csproj|c:\\users\\georg\\source\\repos\\raceday-master\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FA837B-4C50-4CBE-BE58-B1BDEE02B0A1}|RaceDay.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Program.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Program.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T04:19:43.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\appsettings.Development.json",
+              "RelativeToolTip": "..\\RaceDayWeb\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-09T06:16:05.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAAJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T05:50:47.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T05:51:22.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "My.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Enrolements\\My.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Enrolements\\My.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Enrolements\\My.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Enrolements\\My.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T05:52:53.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Events\\Details.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Events\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Events\\Details.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Events\\Details.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T05:14:49.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Events\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Events\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Events\\Index.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Events\\Index.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAFgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T05:13:59.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T22:14:07.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T05:12:13.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T04:44:43.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\User.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T22:06:21.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\Result.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Models\\Result.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\Result.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Models\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T22:08:36.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EventCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\EventCategory.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Models\\EventCategory.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\EventCategory.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Models\\EventCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T22:07:48.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\Event.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T22:06:48.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Enrolment.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\Enrolment.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Models\\Enrolment.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\Enrolment.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Models\\Enrolment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T22:08:12.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\Category.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T22:07:13.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T04:05:13.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Models\\ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Models\\ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T04:06:55.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ParticipantResultViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\ViewModels\\ParticipantResultViewModel.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Models\\ViewModels\\ParticipantResultViewModel.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\ViewModels\\ParticipantResultViewModel.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Models\\ViewModels\\ParticipantResultViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T11:17:47.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrganiserResultsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\ViewModels\\OrganiserResultsViewModel.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Models\\ViewModels\\OrganiserResultsViewModel.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\ViewModels\\OrganiserResultsViewModel.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Models\\ViewModels\\OrganiserResultsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T11:26:56.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Models\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Models\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T04:04:23.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EventViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\ViewModels\\EventViewModel.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Models\\ViewModels\\EventViewModel.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\ViewModels\\EventViewModel.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Models\\ViewModels\\EventViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T04:06:09.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Models\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Models\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Models\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T05:24:53.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ResultsController.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\ResultsController.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Controllers\\ResultsController.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\ResultsController.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Controllers\\ResultsController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T22:33:35.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwDAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T22:34:19.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ParticipantController.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\ParticipantController.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Controllers\\ParticipantController.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\ParticipantController.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Controllers\\ParticipantController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T22:31:50.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OrganiserController.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\OrganiserController.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Controllers\\OrganiserController.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\OrganiserController.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Controllers\\OrganiserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T22:31:22.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T04:08:16.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAkwHAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T22:28:12.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EnrolmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\EnrolmentsController.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Controllers\\EnrolmentsController.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\EnrolmentsController.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Controllers\\EnrolmentsController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA2wD0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T22:33:04.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T22:32:31.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAIIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T22:27:27.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Events.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Organiser\\Events.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Organiser\\Events.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Organiser\\Events.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Organiser\\Events.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T05:48:21.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateEvent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Organiser\\CreateEvent.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Organiser\\CreateEvent.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Organiser\\CreateEvent.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Organiser\\CreateEvent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T05:44:26.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_EventForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Organiser\\_EventForm.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Organiser\\_EventForm.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Organiser\\_EventForm.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Organiser\\_EventForm.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T06:06:23.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T06:10:35.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T22:15:57.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T22:10:30.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RaceDayWeb.csproj",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\RaceDayWeb.csproj",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\RaceDayWeb.csproj",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\RaceDayWeb.csproj",
+              "RelativeToolTip": "..\\RaceDayWeb\\RaceDayWeb.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-08T22:09:28.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T05:56:10.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ApiUnavailable.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Shared\\ApiUnavailable.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Shared\\ApiUnavailable.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Shared\\ApiUnavailable.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Shared\\ApiUnavailable.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T05:55:38.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "My.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Results\\My.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Results\\My.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Results\\My.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Results\\My.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T05:53:40.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Profile\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T05:54:29.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Participant\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Participant\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Participant\\Dashboard.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Participant\\Dashboard.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T05:52:04.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Results.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Organiser\\Results.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Organiser\\Results.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Organiser\\Results.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Organiser\\Results.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T05:50:05.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Enrolments.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Organiser\\Enrolments.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Organiser\\Enrolments.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Organiser\\Enrolments.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Organiser\\Enrolments.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T05:49:41.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "EditEvent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Organiser\\EditEvent.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Organiser\\EditEvent.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Organiser\\EditEvent.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Organiser\\EditEvent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T05:49:19.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Organiser\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Views\\Organiser\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Views\\Organiser\\Dashboard.cshtml",
+              "RelativeToolTip": "..\\RaceDayWeb\\Views\\Organiser\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T05:15:53.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RaceDayApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Services\\RaceDayApiClient.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Services\\RaceDayApiClient.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Services\\RaceDayApiClient.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Services\\RaceDayApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T22:37:16.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IRaceDayApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Services\\IRaceDayApiClient.cs",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\Services\\IRaceDayApiClient.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\Services\\IRaceDayApiClient.cs",
+              "RelativeToolTip": "..\\RaceDayWeb\\Services\\IRaceDayApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T22:36:23.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "..\\RaceDayWeb\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDayWeb\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "..\\RaceDayWeb\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-08T22:24:01.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Georg\\source\\repos\\RaceDay-master\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Georg\\source\\repos\\RaceDay-master\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T22:01:52.425Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
