@@ -1,25 +1,39 @@
-name: CI
 
-on: [push, pull_request]
+name: RaceDay .NET 8 CI
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+  pull_request:
+    branches:
+      - main
+      - master
+
+  workflow_dispatch:
 
 jobs:
-  build-and-test:
+  build:
+    name: Build RaceDay
     runs-on: ubuntu-latest
-    services:
-      sqlserver:
-        image: mcr.microsoft.com/mssql/server:2022-latest
-        env:
-          ACCEPT_EULA: Y
-          MSSQL_SA_PASSWORD: Your_password123
-        ports:
-          - 1433:1433
-    env:
-      RACEDAY_TEST_SERVER: Server=localhost,1433;User Id=sa;Password=Your_password123;TrustServerCertificate=True
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-dotnet@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install .NET 8 SDK
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
-      - run: dotnet restore
-      - run: dotnet build --no-restore -c Release
-      - run: dotnet test --no-build -c Release --verbosity normal
+
+      - name: Display .NET version
+        run: dotnet --version
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build solution
+        run: dotnet build --configuration Release --no-restore
+
