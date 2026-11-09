@@ -1,149 +1,161 @@
-# RaceDay – Part 2: RESTful API
+# RaceDay – Event Management System
 
-RaceDay is a web-based event management system for the South African road running, walking and cycling community. This repository holds the Part 2 RESTful API, built with ASP.NET Core Web API (C#) and SQL Server. Organisers create and manage events, categories and results. Participants browse events, enrol in a category and view their own results.
+## 1. Project Overview
 
-Part 1 (planning documents, ERD, SQL script) is in the /docs folder.
+RaceDay is an event management system developed using ASP.NET Core and C# with .NET 8.
 
-The two roles
-Role	What they can do
-Organiser	Create, update and delete their own events. Create categories and attach them to events (entry fee, maximum participants). View all enrolments for their events. Capture and update results (finish time, position, status).
-Participant	Register and log in. Browse events and categories. Enrol in an event by choosing a category. View and cancel their own enrolments. View their own results.
+The system allows organisers to create and manage running events, while participants can browse events, register for events, and view their results.
 
-Both roles can view and update their own profile.
+The application uses an ASP.NET Core MVC frontend that communicates with a RESTful Web API.
 
-How roles are managed: anyone may register as a Participant. Registering as an Organiser requires a secret organiser code (OrganiserRegistrationCode in appsettings.json), so a normal user cannot make themselves an Organiser.
+## 2. Technologies Used
 
-Technology
-ASP.NET Core Web API (.NET 8)
-SQL Server (LocalDB) using System.Data.SqlClient with parameterised queries
-BCrypt (BCrypt.Net-Next) for password hashing
-Server-side session (user id and role stored after login)
-Swagger (Swashbuckle) for live endpoint documentation
-GitHub Actions for CI
-Setup and run instructions
-Prerequisites
-Visual Studio 2022 with the ASP.NET workload (or the .NET 8 SDK)
-SQL Server LocalDB and SQL Server Management Studio (SSMS)
-1. Create the database
-Open SSMS and connect to (localdb)\api_both.
-Open docs/raceday_schema.sql and execute it. This creates the raceday database, all tables and the seed data for roles and categories.
-2. Check the configuration
-The connection string used by the data classes is: Data source=(localdb)\api_both;database=raceday;
-appsettings.json must contain the organiser code:
-json
-  "OrganiserRegistrationCode": "RACEDAY-ORG-2026"
-3. Install packages
-dotnet add package System.Data.SqlClient
-dotnet add package BCrypt.Net-Next
-dotnet add package Swashbuckle.AspNetCore
-4. Run the API
-dotnet run --project RaceDay
+- C#
+- .NET 8
+- ASP.NET Core MVC
+- ASP.NET Core Web API
+- SQL Server
+- ADO.NET
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
+- Git and GitHub
+- GitHub Actions
 
-Open https://localhost:7034/swagger (the port may differ on your machine).
+## 3. Main Features
 
-5. Seed users
+### Participant Features
 
-Users cannot be seeded with plain SQL because passwords must be BCrypt hashes. Register them through Swagger (POST /api/auth/register):
+- Register an account.
+- Log in and log out.
+- Browse available events.
+- View event details.
+- Register for events.
+- View personal enrolments.
+- View event results.
+- Manage profile information.
 
-Role	Example values
-Organiser	role_name Organiser, organiser_code RACEDAY-ORG-2026
-Participant	role_name Participant
+### Organiser Features
 
-Then log in with POST /api/auth/login. Swagger keeps the session cookie, so protected endpoints work in the same browser tab.
+- Register as an organiser.
+- Log in and log out.
+- View organiser dashboard.
+- Create events.
+- Edit events.
+- Delete events.
+- Manage event categories.
+- View participant enrolments.
+- Capture participant results.
 
-Endpoints
+## 4. Project Structure
 
-Inputs are sent as query/path parameters. Protected endpoints return 401 when not logged in and 403 when the role or ownership is wrong.
+The solution contains the following main components:
 
-Authentication
-Method	Route	Role
-POST	/api/auth/register	Public
-POST	/api/auth/login	Public
-POST	/api/auth/logout	Any
-User profile
-Method	Route	Role
-GET	/api/users/profile	Participant / Organiser
-PUT	/api/users/profile	Participant / Organiser
-Events
-Method	Route	Role
-GET	/api/events	Public
-GET	/api/events/{id}	Public
-GET	/api/events/my	Organiser
-POST	/api/events	Organiser
-PUT	/api/events/{id}	Organiser (owner)
-DELETE	/api/events/{id}	Organiser (owner)
-Categories
-Method	Route	Role
-GET	/api/categories	Public
-GET	/api/categories/{id}	Public
-POST	/api/categories	Organiser
-PUT	/api/categories/{id}	Organiser
-DELETE	/api/categories/{id}	Organiser
-Event categories
-Method	Route	Role
-GET	/api/events/{event_id}/categories	Public
-POST	/api/events/{event_id}/categories	Organiser (owner)
-PUT	/api/event-categories/{id}	Organiser (owner)
-DELETE	/api/event-categories/{id}	Organiser (owner)
-Enrolments
-Method	Route	Role
-POST	/api/events/{event_id}/enrolments	Participant
-GET	/api/enrolments/my	Participant
-GET	/api/events/{event_id}/enrolments	Organiser (owner)
-GET	/api/enrolments/{id}	Participant (own) / Organiser (owner)
-DELETE	/api/enrolments/{id}	Participant (own)
-Results
-Method	Route	Role
-POST	/api/enrolments/{enrolment_id}/results	Organiser (owner)
-PUT	/api/results/{id}	Organiser (owner)
-GET	/api/results/my	Participant
-GET	/api/events/{event_id}/results	Organiser (owner)
-GET	/api/results/{id}	Participant (own) / Organiser (owner)
+- **RaceDay API** – Handles application data and business operations.
+- **RaceDayWeb** – ASP.NET Core MVC frontend.
+- **Models** – Application data models.
+- **ViewModels** – Models used by MVC views.
+- **Controllers** – Handle application requests.
+- **Services** – Communicate with the RESTful API.
+- **Views** – Razor pages displayed to users.
+- **wwwroot** – CSS, JavaScript and static resources.
 
-Finish times use the format hh:mm:ss. Event types are Run, Walk or Cycle. Result statuses are Finished, DNF, DNS or Disqualified.
+## 5. Requirements
 
-Authentication and security
-Passwords are hashed with BCrypt. Plain-text passwords are never stored.
-On login the user id and role are stored in a server-side session.
-Every non-public endpoint checks the session (401) and the role (403).
-Organisers can only change or view data for events they own.
-All SQL uses parameters to prevent SQL injection.
-Deviations from the Part 1 plan
-Change	Reason
-register accepts username, phone_number, role_name and organiser_code. A wrong organiser code returns 403.	Role selection must be controlled (Part 2 requirement).
-PUT /api/users/profile also accepts username and phone_number.	Matches the users table.
-POST /api/events takes the organiser from the session, not the request body.	Prevents creating events as another organiser.
-Added POST /api/auth/logout.	Needed to end a session (used in Part 3).
-Added GET /api/events/{event_id}/categories.	Participants need the category ids to enrol.
-GET /api/enrolments/my returns 200 OK.	The Part 1 table listed the POST response there by mistake.
-Inputs are query parameters instead of JSON bodies.	Follows the lecturer's sample structure.
-Data access uses ADO.NET (SqlClient) instead of Entity Framework Core.	Follows the lecturer's sample structure. (Confirm with your lecturer and edit this line if needed.)
-Unit tests
+Install the following software:
 
-The RaceDay.Tests project covers registration, login, event management, role rejection and enrolments (success and failure cases).
+- Visual Studio 2022.
+- .NET 8 SDK.
+- SQL Server or SQL Server LocalDB.
+- SQL Server Management Studio (SSMS).
+- Git.
 
-dotnet test
+## 6. Database Setup
 
-(Update this section once the tests are written and passing locally and in CI.)
+1. Open SQL Server Management Studio.
+2. Connect to your SQL Server instance.
+3. Create or restore the RaceDay database using the supplied database SQL script.
+4. Check that the database connection string in the API project is correct.
+5. Ensure the API can connect to the database.
 
-CI/CD
+## 7. Configuration
 
-The GitHub Actions workflow is in .github/workflows/ci.yml. It builds the project and runs the unit tests on every push.
+Configure the API URL in the RaceDayWeb `appsettings.json` file.
 
-Green build screenshot:
+Example:
 
-![CI green build](docs/ci-green-build.png)
+    {
+      "ApiSettings": {
+        "BaseUrl": "https://localhost:7100/"
+      }
+    }
 
-(Replace with your screenshot once the build is green.)
+Make sure this URL matches the API launch profile.
 
-Video presentation
+Do not commit passwords, database credentials, API keys or other secrets to GitHub.
 
-YouTube (unlisted): [https://youtu.be/imxpIHLfMf4]
+## 8. Running the Application
 
-AI usage disclosure
+### Step 1: Open the solution
 
-AI assistance (Claude) was used for planning the endpoint structure, generating a first draft of parts of the code and debugging errors. All code was reviewed, tested and is understood by the author, who can explain it in the video. (Edit this note so it accurately reflects your own use.)
+Open the RaceDay solution in Visual Studio 2022.
 
-Author
+### Step 2: Start the API
 
-Student name: [GEORGE KINSMAN MATSHEBELE] Student number: [ST10477632] Module: PROG6212 – Programming 2B
+1. Set the RaceDay API project as the startup project.
+2. Run the API.
+3. Confirm that it starts successfully.
+
+### Step 3: Start the MVC application
+
+1. Set RaceDayWeb as the startup project.
+2. Check the API BaseUrl in `appsettings.json`.
+3. Run the MVC application.
+4. Register or log in to use the application.
+
+If the API and MVC projects are in the same solution, you can configure Visual Studio to start both projects together.
+
+## 9. GitHub Setup
+
+To upload the project to GitHub:
+
+1. Create a new GitHub repository.
+2. Make sure the repository does not contain old project history if you want a clean repository.
+3. Open the project folder in a terminal.
+4. Initialise Git and connect the new repository.
+
+Example commands:
+
+    git init
+    git add .
+    git commit -m "Initial RaceDay project"
+    git branch -M main
+    git remote add origin YOUR_NEW_GITHUB_REPOSITORY_URL
+    git push -u origin main
+
+Replace `YOUR_NEW_GITHUB_REPOSITORY_URL` with your actual repository URL.
+
+## 10. Continuous Integration
+
+This project uses GitHub Actions to automatically restore dependencies and build the .NET solution.
+
+The workflow is located at:
+
+    .github/workflows/dotnet.yml
+
+The CI workflow runs when code is pushed to the main branch or when a pull request is created.
+
+## 11. Security
+
+- Passwords must be securely hashed.
+- User roles control access to organiser and participant functionality.
+- Organiser access must be checked by the API.
+- Sensitive configuration values must not be committed to GitHub.
+- Authentication and session information must be handled securely.
+
+## 12. Author
+
+RaceDay Event Management System
+
+Developed as part of a .NET development project.
